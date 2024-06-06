@@ -13,14 +13,10 @@ function About() {
       <h2>Autorité morale</h2>
       <div className="autorite-morale">
         <div className="profile">
-          <img src="../img/mark.jpeg" alt="mark zuckerberg" />
-          <p>Mr. Zuzu</p>
+          <img src="../img/mark.jpg" alt="Nadine ngalula" />
+          <p>Nadine Ngalula</p>
         </div>
-        <small>
-          {
-            "<< Tu as raison, je ne suis pas un programmeur. Je suis un Analyste Programmeur hahaha LOL ! >> "
-          }
-        </small>
+        <small>{"<< PAC toujours la loyauté ! >> "}</small>
       </div>
     </section>
   );
