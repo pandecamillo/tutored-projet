@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <small>&copy; 2024</small>
+      <small>Projet Tutoré</small>
       <p>
         Crée par <a href="https://camillopande.onrender.com">Camillo Pande</a>
       </p>
