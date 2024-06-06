@@ -1,9 +1,8 @@
 function Footer() {
   return (
     <footer>
-      <small>Projet Tutoré</small>
       <p>
-        Crée par <a href="https://camillopande.onrender.com">Camillo Pande</a>
+        Crée par Amundala André, Magobo Ephraïm et <a href="https://camillopande.onrender.com">Camillo Pande</a>
       </p>
     </footer>
   );
