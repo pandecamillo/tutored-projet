@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <p>
-        Crée par Amundala André, Magobo Ephraïm et <a href="https://camillopande.onrender.com">Camillo Pande</a>
+        Crée par André, Ephraïm et <a href="https://camillopande.onrender.com">Camillo</a>
       </p>
     </footer>
   );
