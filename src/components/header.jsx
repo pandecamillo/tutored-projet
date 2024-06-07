@@ -13,7 +13,7 @@ function Header() {
   };
   return (
     <header>
-      <img src="img/logo.png" width="40" alt="logo" />
+      <img src="img/logo.png" width="60" alt="logo" />
       <button onClick={goToLogin}>Se connecter</button>
       <i className="material-icons" onClick={toggleMenu}>
         {active ? "close" : "menu"}

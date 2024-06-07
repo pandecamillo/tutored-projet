@@ -2,7 +2,10 @@ function Footer() {
   return (
     <footer>
       <p>
-        Crée par <a href="https://wa.me/+243826114378">André</a>, <a href="https://wa.me/+243816626122">Ephraïm</a> et <a href="https://wa.me/+243893196755">Camillo</a>
+        Crée par : <br />
+        <a href="https://wa.me/+123456879">André</a>,{" "}
+        <a href="https://wa.me/+123456879">Phradel</a> et{" "}
+        <a href="https://wa.me/+123456879">Camillo</a>
       </p>
     </footer>
   );
