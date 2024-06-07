@@ -20,8 +20,8 @@ function PageLoginQr(props) {
       </div>
       <section className="form-adhesion">
         <div className="zone">
-          <label htmlFor="idCarte">Scannez le code QR :</label>
-          <h1>QR pas encore disponible</h1>
+          <label htmlFor="idCarte">Scannez code QR :</label>
+          <img src="../img/scanner.png" alt="" />
         </div>
         <center>
           {" "}

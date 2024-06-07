@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import About from "../components/about";
 function PageAbout() {
   const navigate = useNavigate();
 
@@ -14,18 +15,9 @@ function PageAbout() {
         </li>
         <h1>A propos</h1>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <center>
-        <p>La page est en cours de construction</p>
-        <p>
-          Je vais reserver une page uniquement pour le a propos du parti
-          politique
-        </p>
-      </center>
+      <section>
+        <About />
+      </section>
     </>
   );
 }

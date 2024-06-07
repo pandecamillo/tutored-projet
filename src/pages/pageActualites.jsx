@@ -1,7 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import Actualite from "../components/actualite";
+import data_actualite from "../data/data_actualite";
 function PageActualites() {
   const navigate = useNavigate();
-
+  const actualites = data_actualite.map((actualite) => {
+    return <Actualite key={actualite.id} {...actualite} />;
+  });
   const goToHome = () => {
     navigate("/");
   };
@@ -14,18 +18,9 @@ function PageActualites() {
         </li>
         <h1>Activites</h1>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <center>
-        <p>La page est en cours de construction</p>
-        <p>
-          Cette page sera utilisé pour afficher tous les activites sans limite
-          leurs nombres
-        </p>
-      </center>
+      <section className="actualite">
+        <section className="actualite-container">{actualites}</section>
+      </section>
     </>
   );
 }
