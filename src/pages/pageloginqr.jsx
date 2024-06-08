@@ -26,7 +26,7 @@ function PageLoginQr(props) {
         <center>
           {" "}
           <Link to="/login/id" className="link">
-            Entrer Id
+            Entrer Id de la carte
           </Link>
         </center>
         <center>
